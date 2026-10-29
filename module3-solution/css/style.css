@@ -1,0 +1,39 @@
+/* General page styling */
+
+body{
+    margin: 0;
+    font-family:Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/*Header styling */
+
+header{
+    padding: 30px 15px;
+    text-align: center;
+}
+
+/*Main content styling */
+
+main{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section{
+    padding: 30px;
+}
+
+/*Tablet and mobile adjustments */
+
+@media (max-width: 767.98px){
+  header {
+    padding: 20px 20px;
+  }
+
+main {
+  padding-top: 15px;
+}
+
+
+
