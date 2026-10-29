@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Food, LLC</title>
+
+    <!-- Bootstrap 3.3.7 CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Your external CSS file -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default">
+
+        <div class="container-fluid">
+
+            <!-- Company name and mobile menu button -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="#">
+                    Food, LLC
+                </a>
+
+                <!-- Visible only on mobile -->
+                <button type="button"
+                        class="navbar-toggle collapsed visible-xs"
+                        data-toggle="collapse"
+                        data-target="#food-navbar"
+                        aria-expanded="false"
+                        aria-controls="food-navbar"
+                        aria-label="Toggle navigation">
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+
+            </div>
+
+            <!-- Mobile dropdown menu -->
+            <div class="collapse navbar-collapse" id="food-navbar">
+
+                <ul class="nav navbar-nav visible-xs">
+                    <li><a href="#chicken">Chicken</a></li>
+                    <li><a href="#beef">Beef</a></li>
+                    <li><a href="#sushi">Sushi</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Page Heading -->
+    <div class="container-fluid">
+
+        <h1 class="text-center">Our Menu</h1>
+
+    </div>
+
+
+    <!-- Main Content Section -->
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-12">
+
+                <section class="menu-section" id="chicken">
+
+                    <h2>Chicken</h2>
+
+                    <p>
+                        Welcome to Food, LLC. Explore our delicious menu
+                        and discover a variety of dishes prepared for
+                        our customers.
+                    </p>
+
+                    <p>
+                        Our menu offers a selection of meals made with
+                        carefully chosen ingredients. Whether you are
+                        looking for a satisfying lunch or a delicious
+                        dinner, there is something for everyone.
+                    </p>
+
+                    <p>
+                        Enjoy exploring our menu and learning more
+                        about the dishes we offer.
+                    </p>
+
+                    <h3 id="beef">Beef</h3>
+
+                    <p>
+                        Discover our selection of beef dishes,
+                        prepared with flavourful ingredients and
+                        served as part of our restaurant menu.
+                    </p>
+
+                    <h3 id="sushi">Sushi</h3>
+
+                    <p>
+                        Explore our sushi selection and enjoy
+                        a different choice from our menu.
+                    </p>
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- jQuery: required by Bootstrap 3 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap 3.3.7 JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
